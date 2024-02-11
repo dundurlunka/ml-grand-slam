@@ -1,0 +1,17 @@
+digraph Tree {
+node [shape=box, style="filled", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="previous_directions4_Fault <= 0.5\nsamples = 100.0%\nvalue = [0.179, 0.393, 0.429]", fillcolor="#f8f3fd"] ;
+1 [label="FullNameServer_Grigor Dimitrov <= 0.5\nsamples = 65.5%\nvalue = [0.094, 0.44, 0.466]", fillcolor="#f9f6fe"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="samples = 62.3%\nvalue = [0.092, 0.44, 0.468]", fillcolor="#f9f5fe"] ;
+1 -> 2 ;
+3 [label="samples = 3.1%\nvalue = [0.139, 0.433, 0.428]", fillcolor="#fefffe"] ;
+1 -> 3 ;
+4 [label="FullNameServer_Stefanos Tsitsipas <= 0.5\nsamples = 34.5%\nvalue = [0.34, 0.303, 0.357]", fillcolor="#fcfafe"] ;
+0 -> 4 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+5 [label="samples = 30.5%\nvalue = [0.318, 0.311, 0.371]", fillcolor="#f5effd"] ;
+4 -> 5 ;
+6 [label="samples = 4.1%\nvalue = [0.507, 0.241, 0.252]", fillcolor="#f6d4bb"] ;
+4 -> 6 ;
+}
